@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <title>Netflix</title>
+    <link rel="shortcut icon" href="/images/netflix-favicon.svg">
+    <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
 
     <script>
         function toggleShowHideContent(element_id) { 
@@ -71,17 +72,19 @@
 
     <hr class="grey-line"/>
 
-    <section class="section-enjoy-your-tv"> 
-        <div class="content">
-            <div class="enjoy-your-tv-text">
-                <h1>Aproveite na TV.</h1>
-                <p>
-                    Assista em Smart TVs, PlayStation, 
-                    Xbox, Chromecast, Apple TV, 
-                    aparelhos de Blu-ray e outros aparelhos.
-                </p>
+    <section class="section-generic"> 
+        <div class="content-generic">
+            <div class="content-block" >
+                <div class="content-text-container">
+                    <h1>Aproveite na TV.</h1>
+                    <p>
+                        Assista em Smart TVs, PlayStation, 
+                        Xbox, Chromecast, Apple TV, 
+                        aparelhos de Blu-ray e outros aparelhos.
+                    </p>
+                </div>
             </div>
-            <div class="tv-image"> 
+            <div class="content-block content-block-img">
                 <div class="tv-video-container">
                     <video 
                     autoplay
@@ -93,29 +96,36 @@
                 </div>
                 <div class="tv-image-container">
                     <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
-                </div> 
-            </div>
+                </div>
+            </div> 
         </div> 
     </section>
 
     <hr class="grey-line"/>
-
-    <section class="download-series">
-        <div class="content">
-            <div class="download-img-container">
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+  
+    <section class="section-generic">
+        <div class="content-generic">
+            <div class="content-block content-block-img">
+                <img 
+                id="download-image"
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" 
+                alt=""
+                >
                 
                 <div class="download-image-label">
                     <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="">
                     <div class="text-containter">
                         <strong>Stranger Things</strong>
                         <p style="color: #0071EB;">Download em andamento...</p>
-                    </div>
-                    <img src="./images/down-arrow.svg" class="svg-icon" alt="">
+                    </div> 
+                    <img
+                        src="./images/download-icon.gif"
+                        class="gif"
+                        alt="">
                 </div>
 
             </div>
-            <div class="download-txt-container"> 
+            <div class="content-block"> 
                 <h1>Baixe séries para assistir offline.</h1>
 
                 <p>
@@ -127,20 +137,22 @@
 
     <hr class="grey-line"/>
 
-    <section class="watch-whenever-want"> 
-        <div class="content">
-            <div class="watch-whenever-want-text">
-                <h1>Assista quando quiser.</h1>
-                <p>
-                    Assista no celular, tablet, 
-                    smart TV ou 
-                    <br />
-                    notebook sem pagar 
-                    a mais por isso.
-                </p>
+    <section class="section-generic"> 
+        <div class="content-generic">
+            <div class="content-block">
+                <div class="content-text-container">
+                    <h1>Assista quando quiser.</h1>
+                    <p>
+                        Assista no celular, tablet, 
+                        smart TV ou 
+                        <br />
+                        notebook sem pagar 
+                        a mais por isso.
+                    </p>
+                </div>
             </div>
-            <div class="tv-image"> 
-                <div class="tv-video-container">
+            <div class="content-block content-block-img"> 
+                <div class="video-imac-container">
                     <video 
                     autoplay
                     playsiline
@@ -149,12 +161,12 @@
                     src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v">
                     </video> 
                 </div>
-                <div class="tv-image-container">
+                <div class="img-imac-container">
                     <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="">
                 </div> 
             </div>
         </div> 
-    </section>
+    </section> 
 
     <hr class="grey-line"/>
 

@@ -27,6 +27,62 @@
 }
 
 
+/* Generic classes */
+
+
+.grey-line{
+    background-color: #222222; 
+    width: 100%;
+    height: 8px;
+}
+
+.section-generic{
+    background-color: #000;
+    color: #fff;
+    font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    justify-content: center; 
+    padding: 70px 45px;     
+    display: flex;
+    flex-direction: row; 
+}
+
+.content-generic{
+    display: flex;
+    flex-direction: row; 
+    flex-grow: 1;
+    height: 350px; 
+}
+
+.content-block{ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    align-self: center; 
+}
+
+.content-block-img{
+    height: 460px;
+}
+
+.content-block h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+    width: 550px
+ }
+
+ .content-block p{
+    font-size: 25px;
+    width: 550px
+ }
+ 
+ .content-text-container{
+     padding: 0 45px;
+ }
+
+ /* End generic classes */
+
+
 .section-main{
    width: 100%;
    height: 100%;  
@@ -152,214 +208,85 @@
 
 /* Final da primeira section */
 
-.grey-line{
-    background-color: #222222; 
-    width: 100%;
-    height: 8px;
-}
 
-.section-enjoy-your-tv{
-    background-color: #000;
-    color: #fff;
-    font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    justify-content: center;
-    align-items: center;
-
-    display: flex;
-    flex-direction: row; 
-}
-
-.section-enjoy-your-tv .content {
-    display: flex;
-    flex-direction: row;
-    margin: 0px 100px 0px 100px; 
-}
-.section-enjoy-your-tv .enjoy-your-tv-text {
-    align-self: center;
-    width: 550px;
-}
-
-.section-enjoy-your-tv .enjoy-your-tv-text h1{
-   padding-bottom: 20px;
-   font-size: 50px;
-}
-.section-enjoy-your-tv .enjoy-your-tv-text p{
-   font-size: 25px;
-}
-
-.section-enjoy-your-tv .tv-image {  
-    display: inline-block;
-    position: relative;  
-    width:   550px;
-    height: 460px;
-    
-}
-
-.section-enjoy-your-tv .tv-image .tv-video-container{ 
+.tv-video-container{ 
     position: absolute;  
-    top: 9%;
+    top: 15%; 
     left: 12%;
 }
 
-.section-enjoy-your-tv .tv-image .tv-image-container img{  
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%  
+.tv-video-container video{   
+    width: 390px;
 }
-
-
-/* Final da segunda sessão */
-
-.download-series{
-    background-color: #000;
-    color: #fff;
-    font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    justify-content: center;
-    align-items: center;
-
-    display: flex;
-    flex-direction: row; 
-}
-
-.download-series .content {
-    display: flex;
-    flex-direction: row;
-    margin: 0px 100px 0px 0px; 
-}
-
  
-.download-series .content .download-img-container{
-    position: relative; 
-    margin-bottom: 50px;  
-    margin-top: 30px; 
-    width: 50%;
+.tv-image-container img{  
+    position: absolute;
+    width: 530px;
+    top: 0%; 
 }
 
-
-.download-series .content .download-img-container img{ 
-    max-width: 505px; 
-    margin-right: 200px; 
+#download-image{
+    max-width: 505px;
+    width: 100%;   
 }
-
-.download-series .content .download-img-container .download-image-label{
-    width: 320px;
+ .download-image-label{ 
     height: 75px;
-    display: flex;  
+    display: flex;
+    align-items: center; 
     flex-direction: row;
     padding: 10px;
-    position: absolute;
-    top: 68%;
-    left: 10%;
-
+    position: absolute; 
+    left: 80px;  
+    top: 250px;   
+   
     border: 2px solid #404040;
     border-radius: 12px;
     background-color: #000;
-
 }
 
-.download-series .content .download-img-container .download-image-label img{
+.download-image-label img{
     width: 50px;
     margin-right: 0px; 
 }
 
-.download-series .content .download-img-container .download-image-label .text-containter{
+
+.download-image-label .text-containter{
     margin: 20px 15px
 }
 
-.download-series .content .download-img-container .download-image-label .text-containter p{
+.download-image-label .text-containter p{
     font-size: 15px;
+    width: auto;
 }
 
-.download-series .content .download-img-container .download-image-label  .svg-icon{
-    filter: invert(11);
-    width: 25px;
-    margin: 0 auto;
-}
+.download-image-label  .gif{ 
+    width: 48px;
+    height: 48px;
+} 
 
-.download-series .content .download-txt-container{
-    margin: auto 50px;
-}
-
-.download-series .content .download-txt-container h1{
-    padding-bottom: 20px;
-    font-size: 50px;
- }
-
- .download-series .content .download-txt-container p{
-    font-size: 25px;
- }
-
- /* Final terceira sessão */
-
- .watch-whenever-want{
-    background-color: #000;
-    color: #fff;
-    font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    justify-content: center;
-    align-items: center;
-
-    display: flex;
-    flex-direction: row; 
-}
-
-.watch-whenever-want .content{
-    display: flex;
-    flex-direction: row;
-    margin: 0px 100px 0px 100px; 
-}
-
-.watch-whenever-want .watch-whenever-want-text {
+.video-imac-container{ 
+    position: absolute;   
     align-self: center;
-    width: 550px;
-}
-
-.watch-whenever-want .watch-whenever-want-text h1{
-   padding-bottom: 20px;
-   font-size: 50px;
-}
-.watch-whenever-want .watch-whenever-want-text p{
-   font-size: 25px;
-}
-
-.watch-whenever-want .tv-image {  
-    display: inline-block;
-    position: relative;  
-    width:   550px;
-    height: 460px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-}
-
-.watch-whenever-want .tv-image .tv-video-container{ 
-    position: absolute;  
-    top: 9%;
-    left: 25%;
+    margin: 50px;
     background-color: #F3D8FF;
 }
 
-.watch-whenever-want .tv-image .tv-video-container video{  
-    height:200px;
+.video-imac-container video{   
+    height: 220px;
 }
 
-.watch-whenever-want .tv-image .tv-image-container img{  
+ .img-imac-container img{  
     position: absolute;
-    
-    overflow: hidden;
-    top: 0;
-    left: 8%;
+     
+    top: 0; 
     width: 100%  
 }
-
-/* Final quarta sessão */
 
 .frequently-asks{
     background-color: #000;
     color: #fff;
     font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-
-    padding: 80px;
+    padding: 45px 70px;
 }
 
 .frequently-asks .content{ 
@@ -422,11 +349,7 @@
 
 .frequently-asks .content .content-and-email-input{ 
     width: 75%; 
-    max-width: 700px;
-    /* margin: 140px auto;  */
-    
-    font-family: 'Netflix Sans';
-    color: #fff;
+    max-width: 700px;    
 } 
  
 .frequently-asks .content .content-and-email-input p{
@@ -437,6 +360,7 @@
 
 .frequently-asks .content .content-and-email-input .input-container{
     width: 100%;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
 }
