@@ -2,8 +2,13 @@
   <img src="https://cdn.worldvectorlogo.com/logos/netflix-1.svg" width="200" />
 </p>
 
+
 <h1 align="center">
   Netflix UI clone
+</h1>
+
+<h1 align="center">
+  🚧Em desenvolvimento🚧
 </h1>
 
 O intuito do projeto era reconstruir a landing page da **[Netflix](https://www.netflix.com/br/)** utilizando 
