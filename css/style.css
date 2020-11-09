@@ -148,16 +148,16 @@
     font-size: 50px; 
     -webkit-font-smoothing: antialiased;  
 }
-.content-and-email-input p{
+.content-and-email-input h1{
     text-align: center;
 }
 
-.content-and-email-input p:nth-child(2){
+.content-and-email-input h2:nth-child(2){
     font-size: 25px;
     margin: 15px 0px 15px 0px; 
 }
 
-.content-and-email-input p:nth-child(3){
+.content-and-email-input h2:nth-child(3){
     font-size: 20px;
     margin: 25px 0px 25px 0px; 
 }

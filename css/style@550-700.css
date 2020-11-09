@@ -1,4 +1,4 @@
-@media (min-width: 550px) and  (max-width: 950px){
+@media (min-width: 550px) and  (max-width: 700px){
 
     /* Generic classes */
  
@@ -36,7 +36,7 @@
 .content-block h1{
     padding-bottom: 20px;
     font-size: 40px;
-    width: 100%;
+    width: 100%; 
  }
 
  .content-block p{
@@ -56,10 +56,13 @@
         margin: 13% auto;
         left: 0%;
         position: relative;
+        width: 70%;
+        background-color: tomato;
     }
 
     .tv-video-container video{   
-        width: 80%;
+        width: 100%;
+        /* visibility: hidden; */
     }
     
     .tv-image-container img{  
@@ -76,13 +79,18 @@
 
     #download-image{ 
         margin-top: 150px;
+        align-self: center;
     }
+
     .download-image-label{ 
         height: 50px;
         width: 60%;
         justify-content: space-between;
         top: 400px;
-        margin: 0 auto;   
+        left: 12.5%;
+        right: 12.5%;
+        margin: 0px auto;   
+        /* margin: 0 0px 0;   */
     
         border: 2px solid #404040;
         border-radius: 12px;
@@ -111,11 +119,15 @@
     .video-imac-container{ 
         position: absolute;   
         align-self: center;
-        margin: 18px 50px; 
+        margin: 5.5% 50px;
+        /* background-color: teal; */
+        width: 65%;
     }
     
     .video-imac-container video{  
-        width: 80%;
+        /* visibility: hidden; */
+        width: 100%;
+        align-self: center;
     }
      
     .img-imac-container img{  
@@ -186,7 +198,7 @@
     } 
     
     .content-and-email-input h1{
-        width: 90%; 
+        /* width: 90%;  */
     } 
     
     .content-and-email-input h2{
