@@ -353,17 +353,7 @@
     }
 
 
-    /* End FAQ section */
-    .footer{
-        background-color: #000;
-        color: #757575;
-        padding: 40px  50px ;
-    }
-
-    .footer .content{
-        display: flex;
-        flex-direction: column;
-    }
+    /* End FAQ section */ 
 
     .footer a{
         text-decoration: none;
