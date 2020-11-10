@@ -7,9 +7,6 @@
   Netflix UI clone
 </h1>
 
-<h1 align="center">
-  🚧Em desenvolvimento🚧
-</h1>
 
 O intuito do projeto era reconstruir a landing page da **[Netflix](https://www.netflix.com/br/)** utilizando 
 os menores recursos possíveis, sem fazer uso de frameworks ou bibliotecas, do modo mais 'puro' possível.
