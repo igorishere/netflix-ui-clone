@@ -1,0 +1,428 @@
+@media (min-width: 700px) and  (max-width: 950px){
+
+    /* Generic classes */
+ 
+.section-generic{
+    background-color: #000;
+    color: #fff;
+    font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    justify-content: center; 
+    padding: 50px 30px;     
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+}
+
+.content-generic{
+    display: flex; 
+    flex-direction: column;   
+    height: 550px; 
+}
+
+.content-block{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    align-self: center;
+
+    text-align: center;
+}
+
+.content-block-img{
+    height: 0px;
+}
+
+.content-block h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+    width: 100%; 
+ }
+
+ .content-block p{
+    font-size: 20px;
+    width: 100%;
+    padding: 0;
+ }
+ 
+ .content-text-container{
+     padding: 0 45px;
+ }
+
+ /* End generic classes */ 
+
+ /* "Aproveite na TV" section */
+    
+    .tv-video-container{ 
+        margin: 8% auto;  
+        max-width: 600px;
+        left: 0%;
+        position: relative;
+    }
+ 
+    .tv-image-container img{  
+        position: absolute;  
+        left: 0;
+        right:0;
+        margin: 0 auto; 
+    }
+
+ 
+    /* End "Aproveite na TV" section */   
+
+    /* "Baixe séries para assistir offline." section */
+
+    #download-image{ 
+        margin-top: 100px;
+        align-self: center;
+    }
+
+    .download-image-label{ 
+        height: 50px;
+        width: 60%;
+        max-width: 300px;
+        justify-content: space-between;
+        top: 350px;
+        left: 12.5%;
+        right: 12.5%;
+        margin: 0px auto;    
+    
+        border: 2px solid #404040;
+        border-radius: 12px;
+        background-color: #000; 
+    }
+
+    .download-image-label img{
+        width: 40px;
+        margin-right: 0px;
+    }
+
+
+    .download-image-label .text-containter{
+        text-align: left;
+    }
+
+    .download-image-label .text-containter p{
+        font-size: 12px;
+        width: auto;
+    } 
+   
+    /* End "baixe séries para assistir offline." */
+
+    /* "Assista quando quiser." section */
+
+    .video-imac-container{ 
+        position: absolute;   
+        align-self: center;
+        margin: 5.5% 50px; 
+        width: 65%;
+    }
+    
+    .video-imac-container video{   
+        width: 100%;
+        align-self: center;
+    }
+     
+    .img-imac-container img{  
+        position: absolute;  
+        left: 0;
+        right:0;
+        margin: 0 auto; 
+        max-width: 600px;
+    }
+
+    /* End "Assista quando quiser." section */
+    
+
+    /* Begin Main section */
+    
+    .section-main{
+        width: 100%;
+        height: 100%;  
+     }
+     
+     .section-main .section-main-image{
+         position: absolute;
+         width: 100%;
+         height: 100vh;
+     }
+     
+     .section-main .section-main-image img{
+         width: 100%;
+         height: 100vh; 
+     }
+    .section-main .section-main-image-gradient{  
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,.4);
+        background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    }
+
+
+    
+    .section-main-image-gradient .top-bar{  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 40px;
+
+    }
+    
+    .section-main-image-gradient .top-bar img{
+        width: 100px;
+        height: 30px;
+    }
+    
+    .section-main-image-gradient .top-bar button{
+        width: 80px;
+        padding: 8px 0px;
+        background-color: #E40914;
+        border-radius: 3px;
+        
+        color: #FFFFD9;
+        font-size: 15px;
+        font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    }
+    
+    .section-main-image-gradient .content-and-email-input{
+        margin-top: 100px; 
+        width: 90%;     
+        color: #fff;
+        text-align: center;
+    } 
+     
+    
+    .content-and-email-input h2{
+        font-size: 23px;
+        margin: 15px;
+        font-weight: lighter;
+    }
+
+    .content-and-email-input h2:nth-child(3){
+        font-size: 25px;
+        margin: 15px;
+        padding: 0px 15%;
+        
+    }
+    
+    .content-and-email-input .input-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .content-and-email-input .input-container input{
+        flex-grow: 1;
+        width: 100%; 
+        max-width: 480px;
+        height: 60px;
+        padding-left: 10px;
+    
+        border: 1px solid #8C8C8C;
+        border-radius: 2px; 
+    } 
+    
+    .content-and-email-input .input-container button{
+        font-size: 15px;
+        border-radius: 1px;
+
+        height: 40px;
+        width: 130px;
+        margin-top: 15px;
+        background-color:#E30813;
+    }
+    .content-and-email-input .input-container button:hover{
+        background-color:#F40612
+    }  
+    .content-and-email-input .input-container button:focus{
+        outline: 0 !important;
+    }
+    .content-and-email-input .input-container .svg-icon{
+        width: 10px;
+        filter: invert(1);
+    }
+
+    /* end main section */
+
+    .frequently-asks{
+        background-color: #000;
+        color: #fff;
+        font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        /* padding: 45px 0px; */
+    }
+    
+    .frequently-asks .content{ 
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+    }
+    
+    .frequently-asks h1{
+        font-size: 40px; 
+    }
+    
+    .frequently-asks ul{
+        align-self: center;
+        list-style: none;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .frequently-asks ul li{ 
+        font-size: 20px; 
+    }
+    
+    .frequently-asks ul li .frequently-asks-list-item{ 
+        color: #fff;
+        background-color: #303030;
+        border: none;
+        font-size: 18px;  
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        margin-top: 10px;
+        width: 100%; 
+    }
+    
+    .frequently-asks ul li .frequently-asks-list-item:focus{
+        outline:0;
+    }
+     
+    
+    .frequently-asks ul li .frequently-asks-list-item-content{
+        background-color: #303030; 
+        padding: 20px;  
+        margin-top: 1px;
+        margin-bottom: 10px;
+        display: none; 
+    } 
+    
+    .frequently-asks ul li img{
+        width:  18px;
+        filter: invert(1);
+    }
+    
+    .rotate-img{
+        transform: rotate(45deg);
+    }
+    
+    .frequently-asks .content .content-and-email-input{ 
+        width: 90%; 
+        max-width: 700px;    
+    } 
+     
+    .frequently-asks .content .content-and-email-input p{
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 30px;
+    } 
+    
+    .frequently-asks .content .content-and-email-input .input-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .frequently-asks .content .content-and-email-input .input-container input{
+        flex-grow: 1;
+        width: 100%;
+        max-width: 500pxpx;
+        height: 45px; 
+    
+        border: 1px solid #8C8C8C;
+        border-radius: 2px;
+    } 
+    
+    .frequently-asks .content .content-and-email-input .input-container button{
+        font-size: 15px;
+        border-radius: 1px;
+
+        height: 40px;
+        width: 130px;
+        margin-top: 15px;
+        background-color:#E30813;
+    }
+    .frequently-asks .content .content-and-email-input .input-container button:hover{
+        background-color:#F40612
+    }
+    
+    .frequently-asks .content .content-and-email-input .input-container .svg-icon{
+        width: 10px;
+        filter: invert(1);
+    }
+
+
+    /* End FAQ section */ 
+
+    .footer a{
+        text-decoration: none;
+        color: #757575;
+    }
+
+    .footer a:hover{
+        text-decoration: underline; 
+    }
+
+
+    .footer .content .label-bottom-footer{
+        margin-bottom: 0px;
+        font-size: 13px; 
+    }
+
+
+    .footer .content ul{
+        list-style: none;
+        font-size: 13px; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .footer .content ul li{ 
+        min-width: 100px;
+        margin-bottom: 15px;
+    }
+
+    .footer .content .select-container{
+        width:150px;
+        height: 30px; 
+        padding:10px 5px ;
+        margin-top: 20px;
+
+        background-color: #000;
+        color: #999999; 
+        border: 1px solid #333333;
+        border-radius: 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+
+    .footer .content .select-container select{
+        background-color: #000;
+        color: #999999;
+        font-size: 15px; 
+        border: none;
+        outline: none;
+        appearance: none;
+    }
+
+    .footer .content .select-container::before{
+        content: '\f0ac';
+        color: #999999;
+        font-family: 'Font Awesome';
+    }
+    .footer .content .select-container::after{
+        content: '\f0dd';
+        color: #999999;
+        font-family: 'Font Awesome';
+    }
+} 

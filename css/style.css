@@ -1,22 +1,22 @@
 /* Importação da fonte da netflix */
 @font-face {
     font-family: 'Netflix Sans';
-    src: url("fonts/NetflixSans/NetflixSansMedium.otf") format("opentype");
+    src: url("../fonts/NetflixSans/NetflixSansMedium.otf") format("opentype");
 }
 @font-face {
     font-family: 'Netflix Sans';
     font-weight: lighter;
-    src: url("fonts/NetflixSans/NetflixSansLight.otf") format("opentype");
+    src: url("../fonts/NetflixSans/NetflixSansLight.otf") format("opentype");
 }
 @font-face {
     font-family: 'Netflix Sans';
     font-weight: bold;
-    src: url("fonts/NetflixSans/NetflixSansBold.otf") format("opentype");
+    src: url("../fonts/NetflixSans/NetflixSansBold.otf") format("opentype");
 }
 /* Importação da fonte da FontAwesome */
 @font-face {
     font-family: "Font Awesome";
-    src: url("fonts/FontAwesome/fa.otf") format("woff2");
+    src: url("../fonts/FontAwesome/fa.otf") format("woff2");
 }
 
 
@@ -41,7 +41,7 @@
     color: #fff;
     font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     justify-content: center; 
-    padding: 70px 45px;     
+    /* padding: 70px 45px;*/
     display: flex;
     flex-direction: row; 
 }
@@ -50,7 +50,8 @@
     display: flex;
     flex-direction: row; 
     flex-grow: 1;
-    height: 350px; 
+    max-width: 1200px;
+    /* height: 350px;  */
 }
 
 .content-block{ 
@@ -73,7 +74,7 @@
 
  .content-block p{
     font-size: 25px;
-    width: 550px
+    width: 550px;
  }
  
  .content-text-container{
@@ -138,6 +139,8 @@
     
     font-family: 'Netflix Sans';
     color: #fff;
+    
+    text-align: center;
 } 
 
 .content-and-email-input h1{
@@ -147,19 +150,19 @@
     line-height: 55px;
     font-size: 50px; 
     -webkit-font-smoothing: antialiased;  
-}
-.content-and-email-input p{
-    text-align: center;
-}
+} 
 
-.content-and-email-input p:nth-child(2){
-    font-size: 25px;
+.content-and-email-input h2{
+    font-weight: lighter;
     margin: 15px 0px 15px 0px; 
 }
 
-.content-and-email-input p:nth-child(3){
-    font-size: 20px;
-    margin: 25px 0px 25px 0px; 
+.content-and-email-input h2:nth-child(2){
+    font-size: 25px;
+}
+
+.content-and-email-input h2:nth-child(3){
+    font-size: 20px; 
 }
 
 .content-and-email-input .input-container{
@@ -182,9 +185,7 @@
     letter-spacing: normal;
 }
 .content-and-email-input .input-container input:focus{
-    box-shadow: 0 0 0 0;
-    border: 0 ;
-    outline: 0;
+        border: 1px solid #177BE6; 
 }
 
 .content-and-email-input .input-container button{
@@ -221,7 +222,9 @@
  
 .tv-image-container img{  
     position: absolute;
-    width: 530px;
+    /* align-self: center; */
+    margin: 0 auto;
+    max-width: 450px;
     top: 0%; 
 }
 
@@ -229,6 +232,7 @@
     max-width: 505px;
     width: 100%;   
 }
+
  .download-image-label{ 
     height: 75px;
     display: flex;
@@ -268,7 +272,6 @@
     position: absolute;   
     align-self: center;
     margin: 50px;
-    background-color: #F3D8FF;
 }
 
 .video-imac-container video{   
@@ -294,6 +297,9 @@
     display: flex;
     flex-direction: column;  
     align-items: center;
+ 
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .frequently-asks h1{
@@ -408,12 +414,15 @@
     color: #757575;
     font-family : 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 
-    padding: 30px 230px;
+    padding: 30px 30px;
 }
 
 .footer .content{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .footer a{
